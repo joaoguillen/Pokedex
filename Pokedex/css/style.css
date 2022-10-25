@@ -1,0 +1,171 @@
+@import url('https://www.dafont.com/pt/minecraft.font');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Mine';
+}
+
+body {
+text-align: center;
+background-image: url(./back.gif);
+min-height: 100vh;
+background-size: cover;
+}
+
+@font-face {
+    font-family: Mine;
+    src: url(./Minecraftia-Regular.ttf);
+}
+
+
+
+.marquee {
+    position: absolute;
+    bottom: 60%;
+    left: 68%;
+    z-index: 99;
+    color: whitesmoke;
+    font-weight: 600px;
+    text-transform: uppercase;
+
+}
+
+
+.normal {
+    position: absolute;
+    bottom: 47%;
+    left: 77.8%;
+}
+
+.descri {
+    position: absolute;
+    bottom: 46%;
+    left: 68%;  
+}
+
+.dois {
+    position: absolute;
+    bottom: 46%;
+    left: 91%;
+}
+
+.shiny {
+    position: absolute;
+    bottom: 43.5%;
+    left: 84%;
+}
+
+main {
+    margin-top: 3%; 
+    position: absolute;
+    text-align: center;
+}
+
+.pokedex {
+    position: relative;
+    left: 35%;
+    z-index: -1;
+
+}
+
+.pokemon_image {
+    position: absolute;
+    bottom: 68%;
+    left: 75%;
+}
+
+.pokemon_shiny {
+    position: absolute;
+    bottom: 68%;
+    left: 85%;
+
+}
+
+.pokemon_search{
+    color: white;
+    text-transform: capitalize;
+
+}
+.pokemon_number {
+
+    color: white;
+}
+
+
+
+
+.form {
+    position: absolute;
+    background-color: none;
+    width: 70%;
+    bottom: 25%;
+    left: 14%;
+}
+
+.back {
+    position: absolute;
+    top: 7%;
+    left: 67.9%;
+    border-radius: 5px;
+
+
+}
+
+.input_search {
+    position: absolute;
+    left: 72%;
+    width: 25%;
+    padding: 3%;
+    outline: none;
+    top: 64%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600px;
+    color: #3a444d;
+    font-size: larger;
+    text-align: center;
+    box-shadow: -3px 4px 0 #bfbfbe;
+    text-transform: capitalize;
+}
+
+.pokemon_data {
+    position: absolute;
+    font-weight: 600px;
+    color: #aaa;
+    top: 33%;
+    left: 69.5%;
+    text-align: center;
+    font-size: 80%;
+
+}
+
+.buttons {
+    position: absolute;
+    width: 22%;
+    background-color: none;
+    display: flex;
+    left: 79%;
+    bottom: 11%;
+    gap: 20px;
+    box-shadow: #1b1b1b;
+
+}
+
+.pesqui {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600px;
+    background-color: #444;
+    color: white;
+    box-shadow: -3px 4px 0 #1b1b1b;
+    }
+
+.pesqui:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+
+}
